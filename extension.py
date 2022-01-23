@@ -1,4 +1,4 @@
-import math;
-r = float(input("Enter the radius of a circle:"))
-area = math.pi * r * r
-print("Area of a circle = %.2f" %area)
+# extension-file python
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))
